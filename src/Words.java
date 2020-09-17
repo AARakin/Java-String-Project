@@ -15,7 +15,7 @@ public class Words {
 
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
-		System.out.println(countWords("Hi         how  are  you."));
+		System.out.println(countWords("Hi         how  are  you?"));
 		
 	}
 
