@@ -1,3 +1,4 @@
+package com.Flexon.Java_String_Project;
 
 public class Vowels {
 

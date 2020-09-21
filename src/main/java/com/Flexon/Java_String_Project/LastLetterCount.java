@@ -1,4 +1,5 @@
-import java.util.Arrays;
+package com.Flexon.Java_String_Project;
+//import java.util.Arrays;
 
 public class LastLetterCount {
 
