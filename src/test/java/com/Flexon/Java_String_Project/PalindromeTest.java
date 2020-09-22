@@ -7,8 +7,19 @@ import org.junit.Test;
 public class PalindromeTest {
 
 	@Test
-	public void test() {
-		fail("Not yet implemented");
+	public void palindromeSameCase() {
+		assertTrue(Palindrome.isPalindrome("rotor"));
+		assertTrue(Palindrome.isPalindrome("ROTOR"));
+		assertFalse(Palindrome.isPalindrome("hello"));
 	}
+	
+	@Test
+	public void palindromeMixedCases() {
+		assertTrue(Palindrome.isPalindrome("rotoR"));
+		assertTrue(Palindrome.isPalindrome("Rar"));
+		assertFalse(Palindrome.isPalindrome("heLLo"));
+	}
+	
+	
 
 }

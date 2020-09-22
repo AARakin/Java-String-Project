@@ -7,8 +7,17 @@ import org.junit.Test;
 public class VowelsTest {
 
 	@Test
-	public void test() {
-		fail("Not yet implemented");
+	public void vowelsCountSameCase() {
+		assertEquals(2, Vowels.countVowels("apple"));
+		assertEquals(3, Vowels.countVowels("elephant"));
+		
+	}
+	
+	@Test
+	public void vowelsCountDifferentCase() {
+		assertEquals(2, Vowels.countVowels("aPPlE"));
+		assertEquals(3, Vowels.countVowels("elEphANt"));
+		
 	}
 
 }
