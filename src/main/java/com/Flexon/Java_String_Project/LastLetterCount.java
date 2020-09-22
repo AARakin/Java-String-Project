@@ -3,7 +3,7 @@ package com.Flexon.Java_String_Project;
 
 public class LastLetterCount {
 
-	public static void sAndYCount(String str){
+	public static int[] sAndYCount(String str){
 		
 		int yCount = 0;
 		int sCount = 0;
@@ -21,6 +21,8 @@ public class LastLetterCount {
 		
 		System.out.println("Words Ending with s: " + sCount );
 		System.out.println("Words Ending with y: " + yCount );
+		
+		return new int[] {sCount, yCount};
 	}
 	
 	public static String replaceYandS(String str) {

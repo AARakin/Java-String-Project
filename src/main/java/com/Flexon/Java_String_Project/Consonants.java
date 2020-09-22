@@ -33,9 +33,9 @@ public class Consonants {
 	
 	public static void main(String[] args) {
 		
-		String myStr = "Welcome!!!";
-		System.out.println(myStr);
-		System.out.println(replaceConsonants(myStr));
+//		String myStr = "Welcome!!!";
+//		System.out.println(myStr);
+//		System.out.println(replaceConsonants(myStr));
 	}
 
 }
