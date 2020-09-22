@@ -14,8 +14,8 @@ public class WordsTest {
 	
 	@Test
 	public void incorrectGrammaticalSentence() {
-		assertEquals(5, Words.countWords("Hi         how  are  you?"));
-		assertEquals(6, Words.countWords("What   is your  problem?"));
+		assertEquals(4, Words.countWords("Hi         how  are  you?"));
+		assertEquals(4, Words.countWords("What   is your  problem?"));
 	}
 
 }
